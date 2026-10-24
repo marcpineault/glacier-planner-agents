@@ -1,0 +1,8 @@
+.local/
+.firecrawl/
+.env*
+.mcpregistry*
+*token*
+*.pem
+*.key
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.marcpineault/glacier-planner-calculator",
+  "title": "Glacier Planner: Free Canadian Retirement Calculator",
+  "description": "Free Canadian retirement projections and one what-if from confirmed inputs. No Glacier account.",
+  "version": "1.0.0",
+  "websiteUrl": "https://planner.glacierfinancial.ca/calculate",
+  "remotes": [
+    {"type": "streamable-http", "url": "https://planner.glacierfinancial.ca/calculate/mcp"}
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentationUrl": "https://planner.glacierfinancial.ca/docs/agents",
+      "documentationRepositoryUrl": "https://github.com/marcpineault/glacier-planner-agents",
+      "inputContractUrl": "https://planner.glacierfinancial.ca/api/calculate",
+      "privacyUrl": "https://planner.glacierfinancial.ca/privacy",
+      "termsUrl": "https://planner.glacierfinancial.ca/terms",
+      "authentication": "No authentication, Glacier account, API key or payment required for an available basic calculation. Host requirements and public request limits apply.",
+      "scope": "Supplied basic inputs and one retirement-age or spending alternative. Explicit confirmation of assumptions required. No private saved-plan access, account writes, advanced analyses or reports.",
+      "financialData": "The public calculator does not persist financial inputs/results. Caller-held artifacts and AI conversations can retain them.",
+      "advice": "Projections and education, not personalized investment advice."
+    }
+  }
+}
