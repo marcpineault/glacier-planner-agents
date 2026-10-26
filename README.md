@@ -2,6 +2,10 @@
 
 Canadian retirement questions, with numbers from the calculation engine and evidence the person can keep.
 
+## Build an app or agent
+
+Start with the [HTTP and MCP quickstart](https://planner.glacierfinancial.ca/developers), then read the [live calculator contract](https://planner.glacierfinancial.ca/api/calculate). The public first calculation uses supplied, confirmed inputs without a Glacier account or API key. Saved household work uses a separate OAuth connection.
+
 ## Install the skill
 
 ```bash
@@ -12,12 +16,13 @@ Review [SKILL.md](skills/glacier-planner/SKILL.md) before installing. Choose the
 
 The install command follows the [official skills CLI documentation](https://skills.sh/docs/cli). Its optional anonymous install telemetry is described there; `DISABLE_TELEMETRY=1` opts out. This repository does not claim a leaderboard listing, installs, citations or recommendations.
 
-## Three useful jobs
+## Useful jobs
 
 | Question | Start here | Access |
 | --- | --- | --- |
 | Retire at 63 or 65? | [Worked guide and made-up inputs](https://planner.glacierfinancial.ca/guides/retire-at-63-or-65-canada) | Available basic calculator; no Glacier account |
 | Spend $5,000 more each year? | [Spending comparison](https://planner.glacierfinancial.ca/guides/retirement-spending-canada) | Available basic calculator; no Glacier account |
+| Will our money last as a couple? | [Joint retirement projection](https://planner.glacierfinancial.ca/guides/retirement-calculator-for-couples-canada) | Available basic calculator for two people; no Glacier account |
 | What changed in my plan? | [Saved-plan check-in](https://planner.glacierfinancial.ca/guides/what-changed-in-my-retirement-plan) | OAuth and permission to read the person's saved evidence |
 
 Made-up templates require the person to review and explicitly confirm assumptions before calculation. The basic calculator excludes property, debts and other cases listed in its live contract. A projection is not a promise or personalized investment advice.
