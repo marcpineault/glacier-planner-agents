@@ -21,11 +21,12 @@ The install command follows the [official skills CLI documentation](https://skil
 | Question | Start here | Access |
 | --- | --- | --- |
 | Retire at 63 or 65? | [Worked guide and made-up inputs](https://planner.glacierfinancial.ca/guides/retire-at-63-or-65-canada) | Available basic calculator; no Glacier account |
+| CPP at 65 or 70? | [Compare CPP start ages with retirement and OAS held at 65](https://planner.glacierfinancial.ca/guides/cpp-at-65-or-70-canada) | Made-up example; basic calculator without a Glacier account |
 | Spend $5,000 more each year? | [Spending comparison](https://planner.glacierfinancial.ca/guides/retirement-spending-canada) | Available basic calculator; no Glacier account |
 | Will our money last as a couple? | [Joint retirement projection](https://planner.glacierfinancial.ca/guides/retirement-calculator-for-couples-canada) | Available basic calculator for two people; no Glacier account |
 | What changed in my plan? | [Saved-plan check-in](https://planner.glacierfinancial.ca/guides/what-changed-in-my-retirement-plan) | OAuth and permission to read the person's saved evidence |
 
-Made-up templates require the person to review and explicitly confirm assumptions before calculation. The basic calculator excludes property, debts and other cases listed in its live contract. A projection is not a promise or personalized investment advice.
+Made-up templates require the person to review and explicitly confirm assumptions and any compared benefit start ages before calculation. A benefit-age comparison holds the supplied CPP/QPP amount at 65 and OAS residence years fixed; it does not infer extra work or residence years or choose an optimal start age. The basic calculator excludes property, debts and other cases listed in its live contract. A projection is not a promise or personalized investment advice.
 
 ## Connect the right service
 
